@@ -165,6 +165,23 @@ span{
     margin: 2em 0 3em;
 }
 
+.about-content a{
+    background-color: #2865e9;
+    border-radius: 8px;
+    padding: 12px 28px;
+    color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.about-content a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
 /** SKILLS SECTION**/
 #skills{
     height: 16rem;
@@ -289,10 +306,31 @@ td{
     padding: 28px 10% 0;
 }
 
+.project-description ul{
+    padding-bottom: 30px;
+}
+.project-description a{
+    background-color: #2865e9;
+    border-radius: 8px;
+    padding: 12px 28px;
+    margin-left: 10px;
+    color: white;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.project-description a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
 .col{
     display: flex;
     border: 1px solid #0b3442;
-    padding: 12px;
+    padding: 12px 12px 0px 12px;
     border-radius: 10px;
     gap: 10px;
     width: 1700px;
