@@ -144,7 +144,7 @@ span{
     position: relative;
     width: 100%;
     height: auto;
-    box-shadow: 0  0 25px #2865e9, 0 0 50px #2865e9;
+    box-shadow: 0  0 25px #2865e993, 0 0 50px #2865e992;
     border-radius: 50%;
 }
 
@@ -177,9 +177,9 @@ span{
 }
 
 .about-content a:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+    color: white;
+    background-color: #0d0d0d;
+    border: 2px solid white;
 }
 
 /** SKILLS SECTION**/
@@ -236,7 +236,7 @@ span{
     justify-content: center;
     align-items: center;
     padding: 5% 3%;
-    gap: 7em;
+    gap: 8em;
 }
 
 #education h1{
@@ -244,30 +244,44 @@ span{
     text-align: center;
     font-weight: 70px;
     font-size: 50px;
-    text-shadow: 0 0 25px #2865e9, 0 0 50px #2865e9;
-}
-
-table{
-    width: 950px;
-    align-items: center;
-    margin-left: 5em;
-    font-size: 20px;
-}
-
-td{
-    padding: 0.8em;
 }
 
 .edu-img img{
     position: relative;
     width: 300px;
     height: auto;
-    box-shadow: 0  0 25px #2865e9, 0 0 50px #2865e9;
+    box-shadow: 0  0 25px #2865e993, 0 0 50px #2865e992;
     border-radius: 50%;
+}
+
+.row{
+    border: 1px solid #0c0c0c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40rem;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0 0 12px #879fcfe4;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    margin: 25px;
+}
+
+.row:hover{
+    height: 65px;
+    color: white;
+    background-color: #0d0d0d;
+    border: 2px solid #f2f3f5;
+    box-shadow: 0 0 12px #2865e9e7;
 }
 
 
 /**PROJECT SECTION**/
+#projects{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
 .project {
     display: flex;
     align-items: center;
@@ -295,13 +309,14 @@ td{
     font-size: 50px;
 }
 
+
 .project{
     width: 100%;
     min-height: 20vh;
     background: white;
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 3.5em;
     justify-content: center;
     padding: 28px 10% 0;
 }
@@ -342,7 +357,7 @@ td{
 
 .col:hover{
     border: 2px solid #0b3442;
-    box-shadow: 0 0 12px #2865e9e7;
+    box-shadow: 0 0 12px #e6e7eae7;
 }
 .see-more{
     text-align: center;
